@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@600&display=swap');
+
+body{
+    /* background: lightblue; */
+    background-image: radial-gradient(pink,rgba(128, 0, 128, 0.521));
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    top: 0;
+    width: 100%;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.navbar{
+    top: 0;
+    display: flex;
+    background-image: linear-gradient(180deg, rgba(128, 0, 128, 0.452), rgba(255, 255, 0, 0));
+}
+.left{
+    padding-left: 2rem;
+}
+@media (max-width:520px){
+    .nav-links{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        background-color: transparent;
+        margin-right: 2rem;
+        border: 0;
+    }
+    .menu-container{
+        text-align: center;
+        padding-bottom: 0.4rem;
+    }
+    #menu{
+        display: none;
+        align-items: center;
+    }
+    #menu.open{
+        display: block;
+    }
+    #menu.open li{
+        padding-top: 1rem;
+    }
+    
+}
+@media (min-width:521px){
+    .navbar{
+        display: flex;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
+.logo {
+    padding-top: 1rem;
+    margin-block-start: 0;
+}
+.right{
+    margin-left: auto;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    display: inline;
+}
+a {
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.container{
+    margin-top: 3rem;
+    background: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.colum{
+    background: burlywood;
+    text-align: center;
+    width: 20rem;
+    margin: 1%;
+    padding: 2%;
+}

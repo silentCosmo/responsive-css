@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6441d7b3e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="left"><p class="logo">S E T I</p></div>
+        <div class="right">
+            <ul class="nav-links">
+                <li><a href="">News</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Research</a></li>
+                <li><a href="">Outreach</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <button class="menu-icon" onclick="toggleMenu()"><i class="fa-sharp fa-solid fa-bars fa-lg"></i></button>
+        </div>
+            <script>
+                function toggleMenu(){
+                    const menu = document.getElementById('menu')
+                    menu.classList.toggle('open')
+                }
+            </script>
+    </header>
+    <div id="menu" class="menu-container">
+        <ul class="menu">
+                <li><a href="">News</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Research</a></li>
+                <li><a href="">Outreach</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+    </div>
+            
+    <section>
+        <div class="container">
+            <div class="colum">L</div>
+            <div class="colum">R</div>
+        </div>
+    </section>
+</body>
+</html>
