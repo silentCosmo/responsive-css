@@ -46,7 +46,12 @@ header{
     #menu.open li{
         padding-top: 1rem;
     }
-    
+    iframe{
+        width: 90vw;
+    }
+    footer p{
+        padding-bottom: 1rem;
+    }
 }
 @media (min-width:521px){
     .navbar{
@@ -76,14 +81,18 @@ header{
 }
 a {
     padding: 1rem;
-    color: aliceblue;
+    color: rgba(245, 245, 245, 0.87);
     text-align: center;
     text-decoration: none;
 }
 a:hover{
     padding-bottom: 0.5rem;
-    border-bottom: solid aliceblue;
+    border-bottom: solid rgba(245, 245, 245, 0.685);
     border-radius: 20%;
+}
+a:active{
+    color: white;
+    border-color: blueviolet;
 }
 .container{
     margin-top: 3rem;
@@ -106,7 +115,7 @@ a:hover{
     border-color: rgba(128, 128, 128, 0.13); */
 }
 h1{
-    font-size: 3vw;
+    font-size: 2.5rem;
     transition: ease-in-out 200ms;
 }
 h1:hover{
@@ -116,7 +125,6 @@ h1:hover{
 .colum-2{
     text-align: center;
     font-family: 'Bruno Ace SC', cursive;
-    width: 50%;
     margin: 1%;
     padding: 2%;
 }
@@ -129,14 +137,14 @@ h1:hover{
 iframe{
     border-radius: 5px;
     transition: 200ms;
-    box-shadow: 3px 4px 5px 2px rgba(0, 0, 0, 0.589);
 }
 iframe:hover{
     transform: scale(1.1);
+    box-shadow: 3px 4px 5px 2px rgba(0, 0, 0, 0.589);
 }
 hr{
     width: 97%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-color: indigo;
 }
 .join{
@@ -144,6 +152,8 @@ hr{
     flex-direction: column;
     justify-content: center;
     color: rgba(240, 248, 255, 0.904);
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 h3{
     text-align: center;
@@ -161,10 +171,27 @@ p{
     font-weight: bold;
     font-family: 'Bruno Ace SC', cursive;
     background: indigo;
+    letter-spacing: 1px;
 }
 .join button:hover{
-    background: darkmagenta;
+    background: blueviolet;
 }
 .join button:active{
-    background: blueviolet;
+    background: darkmagenta;
+}
+footer p{
+    opacity: 20%;
+    font-size: small;
+    letter-spacing: 0.5rem;
+    margin-top: 2rem;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: indigo;
+}
+::-webkit-scrollbar-track{
+    background: rgb(11, 0, 37);
 }
