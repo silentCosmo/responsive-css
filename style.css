@@ -52,6 +52,24 @@ header{
     footer p{
         padding-bottom: 1rem;
     }
+    /* About */
+    .about-para{
+        width: 90%;
+    }
+    .ar{
+        margin-top: 4rem;
+    }
+    .centers{
+        flex-direction: column;
+    }
+    .center{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+    .ar p{
+        padding-right: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 @media (min-width:521px){
     .navbar{
@@ -62,6 +80,21 @@ header{
     }
     .menu {
         display: none;
+    }
+    /* About */
+    .about-para{
+        width: 60%;
+    }
+    .center{
+        width: 100%;
+    }
+    .ar{
+        width: 50vw;
+        margin-left: 3rem;
+    }
+    .centers{
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 .logo {
@@ -160,7 +193,7 @@ h3{
 p{
     text-align: center;
 }
-.join button{
+.join .button{
     margin: 0 auto;
     color: white;
     border: 0;
@@ -170,12 +203,22 @@ p{
     font-family: 'Bruno Ace SC', cursive;
     background: indigo;
     letter-spacing: 1px;
+    transition: all 200ms;
 }
-.join button:hover{
+.join .button:hover{
     background: blueviolet;
+    transform: scale(1.1);
 }
-.join button:active{
+.join .button:active{
     background: darkmagenta;
+}
+.join a{
+    text-align: center;
+    border: 0;
+    padding: 0;
+}
+.join a:hover{
+    border: 0;
 }
 footer p{
     opacity: 20%;
@@ -192,4 +235,48 @@ footer p{
 }
 ::-webkit-scrollbar-track{
     background: rgb(11, 0, 37);
+}
+
+/* ABOUT */
+.about{
+    width: 100%;
+}
+.left a{
+ padding: 0;
+} 
+.left a:hover{
+    border: 0;
+} 
+.about-headline{
+    text-align: center;
+    margin: 5rem 0  0.6rem 0;
+}
+.about-para{
+    margin: 0 auto;
+}
+.ar{
+    border-top: solid indigo;
+    border-bottom: solid indigo;
+}
+.ar p{
+    text-align: left;
+}
+.centers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.center-headline{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center img{
+    width:100%;
+    height: 16rem;
+    border-radius: 3px;
+}
+.center p{
+    text-align: left;
 }

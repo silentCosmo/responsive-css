@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>About</title>
+</head>
+<body>
+        <header class="navbar">
+            <div class="left"><!-- <p class="logo">S E T I</p> -->
+                <a href="/"><img src="https://www.seti.org/sites/default/files/setilogo_1.png" class="logo" alt="SETI"></a>
+            </div>
+            <div class="right">
+                <ul class="nav-links">
+                    <li><a href="">News</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Research</a></li>
+                    <li><a href="">Outreach</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+                <button class="menu-icon" onclick="toggleMenu()"><i class="fa-sharp fa-solid fa-bars fa-lg"></i></button>
+            </div>
+            <script>
+                function toggleMenu() {
+                    const menu = document.getElementById('menu')
+                    menu.classList.toggle('open')
+                }
+            </script>
+        </header>
+        <div id="menu" class="menu-container">
+            <ul class="menu">
+                <li><a href="">News</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Research</a></li>
+                <li><a href="">Outreach</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </div>
+   <section class="about">
+        <h1 class="about-headline">The SETI Institute</h1>
+        <p class="about-para">is a non-profit research organization, located in the Silicon Valley close to the NASA Ames Research Center.
+        Our mission is to lead humanity's quest to understand the origins and prevalence of life and intelligence in the
+        universe and share that knowledge with the world.</p>
+        <div class="container">
+            <div class="al">
+                <img src="https://www.seti.org/sites/default/files/icons/original-seti-institute-log.jpg" alt="dish">
+            </div>
+            <div class="ar">
+                <p>The Institute began small, with just one project – NASA’s SETI program – and two employees, founder Tom Pierson (a
+                former grants administrator at San Francisco State University), and astronomer Jill Tarter. Over the years, other
+                research disciplines have been added to the Institute’s portfolio, all unified by their relevance to the search for, and
+                understanding of, life beyond Earth. Today, the Institute has approximately 100 scientists as well as specialists in
+                administration, education, and outreach.
+                
+                You can read more about the Institute’s history here.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h1 class="center-headline">Our Centers</h1>
+        <div class="centers">
+            <div class="center">
+                <img src="https://www.seti.org/sites/default/files/styles/original/public/2018-04/exoplanet-destruction_01_0.jpg?itok=pl7KSGkB" alt="carl">
+                <h2>Carl Sagan Center</h2>
+                <p>The Carl Sagan Center for Research is home to more than 100 scientists, a tally that is steadily growing. These
+                researchers have expertise in nearly all branches of science relevant to the development of life, where it might exist,
+                and how we can find it.</p>
+            </div>
+            <div class="center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4pm14LCH3SwmHvnE2VXMm5hlxJjdfD7I9_Q&usqp=CAU" alt="education">
+                <h2>Center for Education</h2>
+                <p>The fundamental questions being addressed by SETI Institute researchers have great popular appeal. They are therefore
+                excellent “hooks” to interest young people in STEAM topics, subject matter that is at the core of our formal education
+                programs. The Center for Education promotes STEAM education through NASA- and NSF-funded programs aimed at teaching and
+                inspiring children, young adults and educators with an emphasis on space sciences and astrobiology.</p>
+            </div>
+            <div class="center">
+                <img src="https://www.seti.org/sites/default/files/thumbnails/fdl-presentation-thumbnail.jpg" alt="Outreach">
+                <h2>Center for Outreach</h2>
+                <p>Science is not just for scientists. We want to share the excitement of our research, but also promote greater science
+                literacy in general. Efforts include more than a hundred or more popular lectures given annually, programs at museums
+                and planetariums, and numerous popular articles in magazine, newspapers, and on the web. Regular outreach offerings
+                include SETI Talks, our monthly lecture series, the weekly Big Picture Science podcast and radio program, SETI Live
+                talks on social media, Journey e-newsletter and Explorer magazine.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>-made by silentcosmo-</p>
+    </footer>
+</body>
+</html>
