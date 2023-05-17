@@ -57,18 +57,18 @@ header{
         width: 90%;
     }
     .ar{
-        margin-top: 4rem;
+        /* margin-top: 4rem;
+        margin-left: 1.5rem; */
+        margin: 4rem 1.5rem 0 1.5rem;
     }
     .centers{
         flex-direction: column;
     }
     .center{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     }
     .ar p{
-        padding-right: 1.5rem;
-        padding-right: 1.5rem;
     }
 }
 @media (min-width:521px){
